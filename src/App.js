@@ -1,4 +1,8 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import Login from './Login';
+import RegisterVisit from './RegisterVisit';
+import SearchVisit from './SearchVisit';
 
 const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,3 +26,5 @@ const App = () => {
         </Router>
     );
 };
+
+export default App;
