@@ -1,8 +1,11 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
-import Login from './Login';
-import RegisterVisit from './RegisterVisit';
-import SearchVisit from './SearchVisit';
+import Login from './components/Login';
+import RegisterVisit from './components/RegisterVisit';
+import SearchVisit from './components/SearchVisit';
+import 'primereact/resources/themes/saga-blue/theme.css';  // Or any other theme
+import 'primereact/resources/primereact.min.css';          // Core CSS
+import 'primeicons/primeicons.css';                        // PrimeIcons
 
 const App = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
