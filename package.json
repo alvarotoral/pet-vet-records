@@ -34,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://alvarotoral.github.io/pet-vet-records/",
+  "homepage": "https://alvarotoral.github.io/pet-vet-records",
   "name": "pet-vet-records",
   "private": true,
   "scripts": {
